@@ -7,6 +7,17 @@
     "explore": "gridsome explore"
   },
   "dependencies": {
-    "gridsome": "^0.7.0"
+    "autoprefixer": "9",
+    "gridsome": "^0.7.0",
+    "gridsome-plugin-tailwindcss": "^4.1.1",
+    "postcss": "7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-regular-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/vue-fontawesome": "^2.0.6"
   }
 }
